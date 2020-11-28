@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../public/style.css">
+  
+  <title>AI Form Validator</title>
+</head>
+<body>
+  
+  <main class="container">
+    
+    <form id="form" class="form">
+      <h2>Register Now! <br>or <br> Bored? </h2>
+      <button id="talk"><img src="../images/mic.ico"></img></button>
+      <h2>Click to hear a joke!</h2>
+      <iframe
+      allow="microphone;"
+      width="350"
+      height="430"
+      src="https://console.dialogflow.com/api-client/demo/embedded/094579f4-da48-44f5-bdef-e34bd8130dfc">
+      </iframe>
+      <section class="form-control">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter username">
+        <small>Error message</small>
+      </section>
+      <section class="form-control">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter email">
+        <small>Error message</small>
+      </section>
+      <section class="form-control">
+        <label for="Password">Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+        <small>Error message</small>
+      </section>
+      <section class="form-control">
+        <label for="password2">Confirm Password</label>
+        <input type="password" id="password2" placeholder="Enter password again">
+        <small>Error message</small>
+      </section>
+      <button>Submit</button>
+    </form>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
+  <script src="../public/script.js"></script>
+</body>
+</html>
