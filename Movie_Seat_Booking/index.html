@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Movie Booking</title>
+</head>
+<body>
+  <section class="movie-container">
+    <label>What movie would you like to watch?</label>
+    <select id="movie">
+      <option value="12">Inception (12)</option>
+      <option value="14">Memento (14)</option>
+      <option value="13">Mulholland Dr. (13)</option>
+      <option value="10">Fight Club (10)</option>
+      <option value="9">Interstellar (9)</option>
+    </select>
+  </section>
+  <ul class="showcase">
+    <li>
+    <section class="seat"></section>
+    <small>N/A</small>
+    </li>
+    <li>
+      <section class="seat selected"></section>
+      <small>Selected</small>
+    </li>
+    <li>
+      <section class="seat occupied"></section>
+      <small>Occupied</small>
+    </li>
+  </ul>
+  <section class="container">
+    <section class="screen"></section>
+    <section class="row">
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+    </section>
+    <section class="row">
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat occupied"></section>
+      <section class="seat occupied"></section>
+    </section>
+    <section class="row">
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+    </section>
+    <section class="row">
+      <section class="seat occupied"></section>
+      <section class="seat occupied"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+    </section>
+    <section class="row">
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+    </section>
+    <section class="row">
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat occupied"></section>
+      <section class="seat occupied"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+      <section class="seat"></section>
+    </section>
+  </section>
+  <p class="text">You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span></p>
+  <script src="script.js"></script>
+</body>
+</html>
