@@ -7,15 +7,18 @@
   <title>Movie Booking</title>
 </head>
 <body>
+  
   <section class="movie-container">
     <label>What movie would you like to watch?</label>
     <select id="movie">
+      <option value="0">Pick a movie</option>
       <option value="12">Inception (12)</option>
       <option value="14">Memento (14)</option>
       <option value="13">Mulholland Dr. (13)</option>
       <option value="10">Fight Club (10)</option>
       <option value="9">Interstellar (9)</option>
     </select>
+    
   </section>
   <ul class="showcase">
     <li>
@@ -32,7 +35,12 @@
     </li>
   </ul>
   <section class="container">
-    <section class="screen"></section>
+    <iframe width="360" height="115" src="https://www.youtube.com/embed/YoHD9XEInc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen class="screen" style="display: none" id="inception"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KpNLhJhp8uI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="screen" style="display: none" id="memento"></iframe>
+    <section id="screen" style="display: block;"></section>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jbZJ487oJlY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="screen" style="display: none" id="mulholland"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qtRKdVHc-cE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="screen" style="display: none" id="fight"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="screen" style="display: none" id="interstellar"></iframe>
     <section class="row">
       <section class="seat"></section>
       <section class="seat"></section>
